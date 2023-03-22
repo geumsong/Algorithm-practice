@@ -1,3 +1,4 @@
+
 .img1, .img2 {
   width: 134px;
   height: 40px;
@@ -10,51 +11,71 @@
   border: 1px solid rgb(227, 227, 227);
   margin-top: 40px;
   margin-left: 10px;
-  padding: 10px;
   width: 350px;
 
 }
 .logo {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 38px;
-  margin: 36px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-decoration: none;
 }
 .log-in {
   display: flex;
   flex-direction: column;
 }
-.id {
-  width: 18px;
-  height: 18px;
+.id, .password {
+  width: 260px;
+  height: 36px;
+  margin: 3px;
+  font-size:12px;
+  border: 1px solid rgb(222, 222, 222);
+  border-radius: 3px;
+  border-style: 1px solid rgb(122, 122, 122);
+  background-color: rgb(249, 249, 249);
 }
-.password {
-  width: 18px;
-  height: 18px;
+.button {
+  width: 265px;
+  height: 34px;
+  margin-top: 14px;
+  margin-bottom: 10px;
+  background-color: rgb(109, 182, 255);
+  border-style:none;
+  border-radius: 8px;
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
 }
 .separate-bar { 
   display: flex;
   flex-flow:row;
-  margin: 18px;
+  margin-top: 10px;
+  margin-bottom: 14px;
   font-size: 13px;
   font-weight: bold;
   color:#8e8e8e
 }
 .second-text {
-  margin-left: 9px;
-  margin-right: 9px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 .login-facebook {
   display: flex;
   flex-flow: row;
-  margin: 18px;
+  margin-top: 18px;
 }
 .facebook-login-text {
   margin-left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
 }
 .find-pw {
   font-size: 12px;
   text-align: center;
-  margin: 12px;
+  margin-bottom: 20px;
+  margin-top: 25px;
 }
 .second {
   display:flex;
@@ -64,13 +85,18 @@
   border: 1px solid rgb(227, 227, 227);
   margin-top: 10px;
   margin-left: 10px;
-  padding: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   width: 350px;
+}
+.desc {
+  font-size: 14px;
 }
 .sign-up {
   color: rgb(8, 132, 255);
   font-weight: bold ;
   margin-left: 10px;
+  font-size: 15px;
 }
 .footer {
   display:flex;
@@ -78,7 +104,11 @@
   align-items: center;
   justify-content: center;
   align-content: stretch;
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.footer-text {
+  font-size: 14px;
 }
 .img1, .img2 {
   padding-top: 20px;
