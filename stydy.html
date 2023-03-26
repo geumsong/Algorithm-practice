@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome</title>
+  </head>
+  <body>
+    <div id="box">
+      <ul id="list">
+        <li id="color">Red</li>
+      </ul>
+    </div>
+    <script>
+      const box = document.getElementById("box");
+      const list = document.getElementById("list");
+      const color = document.getElementById("color");
+
+      document.body.addEventListener("click", () => {
+        console.log("1. body");
+      });
+      document.body.addEventListener("click", () => {
+        console.log("2. div");
+      });
+      document.body.addEventListener("click", () => {
+        console.log("3. ul");
+      });
+      document.body.addEventListener("click", () => {
+        console.log("4. li");
+      });
+    </script>
+  </body>
+</html>
